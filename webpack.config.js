@@ -84,12 +84,12 @@ module.exports = {
     }
   },
   output: {
-    path.resolve(__dirname, 'build'),
+    path: path.resolve(__dirname, 'build'), // Исправлено!
     filename: 'bundle.js',
     publicPath: '/'
   },
   devServer: {
-    static: path.join(__dirname, './dist'),
+    static: path.join(__dirname, 'build'), // Исправьте './dist' на 'build'
     compress: true,
     historyApiFallback: true,
     port: 4000

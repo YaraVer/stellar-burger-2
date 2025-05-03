@@ -98,8 +98,8 @@
     "test": "jest",
     "cypress:open": "cypress open",
     "build": "webpack --mode production",
-"predeploy": "npm run build",
-"deploy": "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
