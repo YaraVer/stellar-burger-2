@@ -84,7 +84,7 @@ module.exports = {
     }
   },
   output: {
-    path: path.resolve(__dirname, './dist'),
+    path.resolve(__dirname, 'build'),
     filename: 'bundle.js',
     publicPath: '/'
   },
